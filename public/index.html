@@ -15,7 +15,7 @@
 
     <main>
 
-      <p id="switcher">Light/Dark</p>
+      <p id="switcher" class="flex items-center justify-center">Light/Dark</p>
 
 <div class="clock">
       <div class="clock-face">
@@ -26,20 +26,21 @@
     </div>
   
         <!-- Time -->
-        <time class="time container mx-auto block grid lg:grid-cols-4 md:grid-cols-2 font-mono text-9xl">
-                <data class="hours block">HH</data> :
-                <data class="minutes block">MM</data> :
-                <data class="seconds block text-xs">SS</data>
-                <data class="amOrPM block">AM/PM</data>
-            </time>
+        <time class="time container mx-auto inline-block font-mono text-9xl">
+          <data class="hours inline">HH</data><span class="mx-1">:</span>
+          <data class="minutes inline">MM</data><span class="mx-1">:</span>
+          <data class="seconds inline">SS</data><span class="mx-1"></span>
+          <data class="amOrPM inline">AM/PM</data>
+        </time>
       
+        <br>
           
         <!-- Date -->
-        <time class="date container mx-auto block grid lg:grid-cols-4 md:grid-cols-2">
-          <data class="month block">Month</data>
-          <data class="dayOfMonth block">00</data>,
-          <data class="year block">0000</data> |
-          <data class="dayOfWeek block">SMTWTFS</data>
+        <time class="date container mx-auto inline-block font-mono text-8xl"></time>
+          <data class="month inline">Month</data>
+          <data class="dayOfMonth inline">00</data>,
+          <data class="year inline">0000</data> |
+          <data class="dayOfWeek inline">SMTWTFS</data>
         </time>
       
       </main>
