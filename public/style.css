@@ -666,7 +666,7 @@ body {
 #switcher {
 }
 
-.dark .month {
+.dark .dayOfWeek {
   color: #7bfbde;
 }
 
@@ -678,8 +678,22 @@ body {
   background: #7bfbde;
 }
 
-.month {
+
+.dayOfWeek {
+  font-size: 4rem;
   color: #507CF2;
+}
+
+.month {
+  font-size: 4rem;
+}
+
+.year {
+  font-size: 4rem;
+}
+
+.dayOfMonth {
+  font-size: 4rem;
 }
 
 
